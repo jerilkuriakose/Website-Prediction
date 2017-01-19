@@ -28,4 +28,7 @@ This project consist of three folders
 *PredictWebsite* folder constains the codes that are used for predicting the category of website.
 *Results* folder contains the obtained results.
 
+## Discussions
+I have used only Multinomial Naive Bayes for predicting the category of the website. A hybrid algorithm could have been made by getting the results from multiple clssification technique.Decision tree would also give promising results, since the results require only True or False.
 
+`CountVectorizer` is used to convert the text to vector format, we can get better results by using *word2vec.py* of **tensorflow** library.
