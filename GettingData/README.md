@@ -8,12 +8,10 @@ This folder has the code for getting all the data used for training the model.
 The folders **gettitle, getlinks, convertlinks** are scrapy projects. The files **bs_digit.py, bs_iimnet.py, bs_paulnrogers.py** are used to fetch urls of e-Commerce sites using BeautifulSoup. The **data** folder contains the fetched URLs. The fetched URLs are used for training the model.
 
 The list of e-Commerce websites were fetched from the following pages
-```
 * [http://www.thetoptens.com/ecommerce-websites-india/](http://www.thetoptens.com/ecommerce-websites-india/)
 * [http://www.iimnet.com/profiles/blogs/list-of-e-commerce-companies-in-india](http://www.iimnet.com/profiles/blogs/list-of-e-commerce-companies-in-india)
 * [http://www.digit.in/technology-guides/fasttrack-to-e-commerce/top-50-e-commerce-websites-in-india.html](http://www.digit.in/technology-guides/fasttrack-to-e-commerce/top-50-e-commerce-websites-in-india.html)
 * [https://paulnrogers.com/top-50-ecommerce-websites/](https://paulnrogers.com/top-50-ecommerce-websites/)
-```
 
 *getlinks* project is used to get the e-Commerce site lists from [http://www.thetoptens.com/ecommerce-websites-india/](http://www.thetoptens.com/ecommerce-websites-india/). To run the project, open *getlinks* folder, then type the following command in the terminal
 ```
@@ -60,7 +58,12 @@ Now we can use the 'merged.csv' which contains the URLs of e-Commerce sites, to 
 
 The scrapy project 'gettitle' is used to get the titles for the URL's from 'merged.csv' file. To run the project, type the following command in the terminal from the 'gettitle' project's top level directory
 ```
-scrapy crawl convert -o titles.json
+scrapy crawl convert -o titlesComm.json
 ```
-The output is saved in the project's top level directory with the name 'titles.json'.
+The output is saved in the project's top level directory with the name 'titlesComm.json'.
 
+Repeat the same with 5000sites_other.csv, and save it as 'titlesOther.json'.
+
+Now all our required data is there availabe in 'titlesComm.json' and 'titlesOther.json'. Next we will be cleaning the data.
+
+'FilterData.ipynb' contains the code used for cleaning the data. 
