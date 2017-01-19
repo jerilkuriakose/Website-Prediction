@@ -7,8 +7,16 @@ This is the code to predict whether a given website belongs to e-Commerce catego
 ## Dependencies
 * scrapy
 * sklearn
+* pandas
 * beautifulsoup4
 * requests
+
+### Installing dependencies
+* pip install scrapy
+* pip install sklearn
+* pip install pandas
+* pip install beautifulsoup4
+* pip install requests
 
 ## Usage
 This project consist of three folders
@@ -18,4 +26,6 @@ This project consist of three folders
 
 *GettingData* folder constains the codes that are used in getting the data.
 *PredictWebsite* folder constains the codes that are used for predicting the category of website.
-*Results* folder contains the obtained results
+*Results* folder contains the obtained results.
+
+
