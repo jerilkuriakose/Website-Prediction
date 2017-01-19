@@ -1,5 +1,5 @@
 # Website-Prediction
-This project is predictiong whether a given website is a e-Commerce website or not
+This project is predicting whether a given website is a e-Commerce website or not
 
 ## Dependencies
 * scrapy
