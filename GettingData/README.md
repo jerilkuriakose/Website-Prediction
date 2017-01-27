@@ -4,6 +4,7 @@ This folder has the code for getting all the data used for training the model.
 * scrapy
 * beautifulsoup4
 * requests
+
 ## Usage
 The folders **gettitle, getlinks, convertlinks** are scrapy projects. The files **bs_digit.py, bs_iimnet.py, bs_paulnrogers.py** are used to fetch urls of e-Commerce sites using BeautifulSoup. The **data** folder contains the fetched URLs. The fetched URLs are used for training the model.
 
