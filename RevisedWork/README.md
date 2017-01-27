@@ -4,7 +4,7 @@ Two methods have been used to find out the type of website. The first method did
 
 ### Method 1
 
-It uses [http://whatcms.org/](http://whatcms.org/) to finf out the type of CMS used by the website. The method returns a list with the CMS used, but most of the values were nan. No promising results were obtained.
+It uses [whatcms](http://whatcms.org/) to finf out the type of CMS used by the website. The method returns a list with the CMS used, but most of the values were nan. No promising results were obtained.
 
 #### Dependencies
 
@@ -13,7 +13,7 @@ It uses [http://whatcms.org/](http://whatcms.org/) to finf out the type of CMS u
 
 ### Method 2
 
-This method uses [https://builtwith.com/](BuildWith) site to get the infromation about the type of website. If it is an e-Commerce website it informs about the platform used for making it.
+This method uses [BuildWith](https://builtwith.com/) site to get the infromation about the type of website. If it is an e-Commerce website it informs about the platform used for making it.
 
 The results from method 2 is saved as *results_revised.txt* inside the **results** folder
 
