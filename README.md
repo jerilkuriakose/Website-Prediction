@@ -49,3 +49,4 @@ The following approaches can also be used to find out the website type:
 Once getting these information it can be used to find-out some intresting patterns.
 
 https://anaconda-enterprise.s3.amazonaws.com/anaconda-enterprise-5.5.2-46-ge2465181d-g7.tar.gz
+http://airgap.svc.anaconda.com.s3.amazonaws.com/misc/ae5-conda-latest-Linux-x86_64.sh
