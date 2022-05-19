@@ -47,3 +47,5 @@ The following approaches can also be used to find out the website type:
     * Checking for a search box
 
 Once getting these information it can be used to find-out some intresting patterns.
+
+https://anaconda-enterprise.s3.amazonaws.com/anaconda-enterprise-5.5.2-46-ge2465181d-g7.tar.gz
